@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projections</title>
+</head>
+<body>
+    <h1>In this project I learned how to display images in different projections</h1>
+    
+    <p>Using QGIS, I was able to display multiple projections of the same map. This was accomplished by downloading the map data involved with this project into my computer. Using the indicatrix mapper plug-in I was able to transpose multiple projections onto my map. Exploring the different projections was interesting as it displayed how the same global map can change extreme amounts depending on how the information is presented. Over the course of this project I was able to enhance my skills involving projections and understanding how these projections influence perceptions of maps. </p>
+    
+    <h2>WGS84 Projection</h2>
+    <h3>The Mercator projection enlarges Europe relative to areas near the equator. Greenland in this projection is roughly the size of Africa which is not the case in the real world.</h3>
+    <a href=".//maps/4326.png">
+    <img src=".//maps/4326.png" alt="WGS84" width='500px'>
+    </a>
+    <h2>Aitoff Projection</h2>
+    <h3>In this projection the Earth is projected as more of an ellipsoid rather than a rectangle. There is high distortion nearing the edges of the map. A positive of this map is that distances through the center of the map are true.</h3>
+    <a href=".//maps/54043.png">
+    <img src=".//maps/54043.png" alt="Aitoff" width='500px'>
+    </a>
+    <h2>Pseudo Mercator</h2>
+    <h3>The Pseudo Mercator is similar to WGS84 in the sense that it enlarges Europe disproportionally. The main difference is no elongated distortion near the poles of the map.</h3>
+    <a href="./maps/PM3857.png">
+    <img src="./maps/PM3857.png" alt="Pseudo Mercader 3857" width='500px'> -->
+    </a>
+    <h2>Sphere Winkel</h2>
+    <h3>In the Sphere Winkel projection the earth is represented as an ellipsoid. Shape is kept relatively constant with vertical stretching present near the poles.</h3>
+    <a href="./maps/spherewinkel53018.png">
+    <img src="./maps/spherewinkel53018.png" alt="53018" width='500px'>
+    </a>
+    <h2>Sphere Cylindrical Equal Area</h2>
+    <h3>The Sphere Cylindrical Equal Area projection presents equal vertical proportions throughout the map. Near the top and bottom of the map severe horizontal stretching occurs.</h3>
+    <a href="./maps/esri54034.png">
+    <img src="./maps/esri54034.png" alt="54034" width='500px'>
+    </a> 
+    <h2>World Equidistant Conic</h2>
+    <h3>The World Equidistant Conic projection is in a circle and includes the entire landmass of the earth. Antartica wraps mostly around the entire map which is not realistic. This projection is highly distorted but I believe represents how the earth would look if you placed a piece of paper on top of the globe to draw all land.</h3>
+    <a href="./maps/esri54027.png">
+    <img src="./maps/esri54027.png" alt="54027" width='500px'>
+    </a> 
+    <h2>North Pole Azimuthal Equidistant</h2>
+    <h3>This projection is very similar to the World Equidistant Conic. The main difference between the two is Antartica fully connecting around the map. </h3>
+    <a href="./maps/esri102106.png">
+    <img src="./maps/esri102106.png" alt="102016" width='500px'>
+    </a> 
+    <h2>Sphere Bonne</h2>
+    <h3>The Sphere Bonne projection follows the shape of a heart. I found this projection interesting because I have never seen the Earth represented in this fashion. It appeared to be a fusion between the Sphere Winkel and the World Equidistant Conic. </h3>
+    <a href="./maps/esri53024.png">
+    <img src="./maps/esri53024.png" alt="53024" width='500px'>
+    </a>   
+    <h2>World Craster Parabolic</h2>
+    <h3>The World Craster Parabolic was another representation of Earth that I have not seen before. It is stretched at the equator and at the poles.</h3>
+    <a href="./maps/esri54046.png">
+    <img src="./maps/esri54046.png" alt="World Craster Parabolic" width='500px'>
+    </a>    
+    <!-- <h2 style="color:red">Now, you should <u>add the following projections on your own:</u></h2> -->
+    <!-- <h3>EPSG: 3857, 53018, 54034, 54027, 102016, and two additional projections that you choose.</h3> -->
+    <p></p>
+    <h2>Data used for this project</h2>
+    <a href="https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/ne_10m_admin_0_countries.zip"> Download Natrual Earth 1:10m Cultural Vector </a>
+
+</body>
+</html>
