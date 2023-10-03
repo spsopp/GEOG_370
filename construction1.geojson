@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"name": "construction1",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": 1, "Construct": "Construction 1" }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -71.034018491851455, 42.348390267480625 ], [ -71.03210817219032, 42.35058117293881 ], [ -71.026524772423883, 42.348334625371137 ], [ -71.029142924894018, 42.346828311090697 ], [ -71.029765372333387, 42.346836128146627 ], [ -71.030300500575436, 42.346892585158784 ], [ -71.030838054749196, 42.347024351106683 ], [ -71.034018491851455, 42.348390267480625 ] ] ] ] } },
+{ "type": "Feature", "properties": { "id": null, "Construct": null }, "geometry": { "type": "MultiPolygon", "coordinates": [ ] } }
+]
+}
